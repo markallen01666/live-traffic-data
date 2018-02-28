@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Almondsbury interchange live traffic web app
+    Demonstration project using HTML5, CSS3, Bootstrap, jQuery, Javascript, and live traffic maps from the Here.com traffic API service
+
+    Simple demonstration of pulling live traffic data maps covering the M4/M5 Almondsbury interchange North-West of Bristol in the UK
+
+    Mark Allen: Freelance Web Developer - 2018
+-->
+
+<html>
+<head>
+  <title>Almondsbury live traffic</title>
+  <!-- Optimise for mobile devices -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Load script, stylesheet, Bootstrap 3 and jQuery 3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  <!-- Load Here.com Maps API code libraries for Javascript -->
+  <link rel="stylesheet" type="text/css" href="https://js.cit.api.here.com/v3/3.0/mapsjs-ui.css" />
+  <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-core.js"></script>
+  <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-service.js"></script>
+  <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+  <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+</head>
+
+<body id="bg">
+  <div class="container">
+    <div class="col-xs-12 v-offset-3 text-center">
+      <h2>M4/M5 Almondsbury Interchange Live Traffic Information</h2>
+    </div>
+    <div id="liveTime" class="col-xs-12 text-center"></div>
+  </div>
+  <div class="container">
+    <div id="mapContainer" />
+  </div>
+</body>
+</html>
