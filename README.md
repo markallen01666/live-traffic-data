@@ -7,4 +7,4 @@ Resources: HTML5, CSS3, Bootstrap 3, Javascript, jQuery, Here.com API.
 
 Notes: This app uses the Here.com live traffic data API. An authenticated call returns a live, responsive, and interactive map tile that displays traffic information focused on the M4/M5 motorway junction near Bristol. App also displays the current time using a Javascript Date() call.
 
-Link: markallenwebdeveloper.co.uk/portfolio/almondsbury
+Link: http://markallenwebdeveloper.co.uk/portfolio/almondsbury/
